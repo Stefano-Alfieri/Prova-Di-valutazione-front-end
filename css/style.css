@@ -1,0 +1,69 @@
+nav{
+    background-color: rgb(57, 1, 110);
+}
+.colore1{
+   color: rgb(57, 1, 110);
+}
+.colore2{
+   background-color: rgb(57, 1, 110);
+ }
+ .colore3{
+    color: rgb(255, 115, 0);
+
+ }
+#drop{
+    background-color: rgb(57, 1, 110);
+    border-color: white;
+}
+.bianco{
+    color: white;
+}
+.navbar-toggler{
+    border-color: white;
+}
+
+#btn-news{
+    background-color: rgb(57, 1, 110);
+    border-color: black;
+}
+.dropdown-menu{
+    --bs-dropdown-link-active-bg: rgb(57, 1, 110);
+}
+.dropdown-item:hover{
+    color: rgb(57, 1, 110);
+}
+.dropdown-item:focus{
+    color:white;
+}
+.carImg{
+    width: 100vw;
+    height: 70vh;
+    justify-content: center;
+}
+.imgChi{
+    height: 50vh;
+    width: 100%;
+}
+.sep{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(57, 1, 110);
+}
+.noLine{
+    list-style-type: none;
+}
+#nome,#cognome,#mail,#numero{
+    margin: 2px;
+    border-color: rgb(57, 1, 110);
+}
+.form-control:focus{
+    box-shadow:  0 0 0 .25rem rgba(57, 1, 110, .25);
+}
+@media screen and (max-width:640px) {
+    .no{
+        display: none;
+    }
+    .carImg{
+        height: 48vh;
+    }
+}

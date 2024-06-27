@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/e2d1d32d09.js" crossorigin="anonymous"></script>
+    <title>Contatti</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <!--Logo-->
+                <a class="navbar-brand text-white" href="Home.html">S.A.</a>
+                <!--Hamburger responsive-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars bianco"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--Home-->
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="Home.html">Home</a>
+                        </li>
+                        <!--chi siamo-->
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="ChiSiamo.html">Chi Siamo</a>
+                        </li>
+                        <!--contatti-->
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="Contatti.html" >Contatti</a>
+                        </li>
+                        <!--dropdown Servizi-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="Servizi.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Servizi
+                            </a>
+                            <ul class="dropdown-menu " id="drop">
+                                <li><a class="dropdown-item bianco" href="Servizi.html">Consulenza</a></li>
+                                <li><a class="dropdown-item bianco" href="Servizi.html">Sviluppo web</a></li>
+                                <li><a class="dropdown-item bianco" href="Servizi.html">Sviluppo App</a></li>
+                                <li><a class="dropdown-item bianco" href="Servizi.html">Formazione</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--fine navbar-->
+    <!--Inizio Body-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+                <h1 class="text-center colore1">Contatti</h1>
+            </div>
+            <div class="col-12 ">
+                <h2 class="text-center colore3">Compila il modulo per essere ricontattato dal nostro staff</h2>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <form>
+                    <h3 class="colore1">Compila i seguenti campi</h3>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" placeholder="Inserisci il nome" id="nome">
+                        <label for="nome">Inserisci il nome</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" placeholder="Inserisci il nome" id="cognome">
+                        <label for="cognome">Inserisci il cognome</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" placeholder="email@esemppio.com" id="mail">
+                        <label for="mail">Inserisci la tua e-mail</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" placeholder="+39 323232323" id="numero">
+                        <label for="mail">Inserisci il tuo numero di telefono</label>
+                    </div>
+                    <div class="form-chek text-start my-3">
+                        <input type="checkbox" class="form-check-input" value="privacy" id="privacycheck">
+                        <label for="privacycheck">Ho letto e accettato la privacy
+                            policy</label>
+
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <h3 class="colore1">I nostri contatti</h3>
+                <ul class="noLine ">
+                    <li>
+                        <h4 class="colore3">
+                            Indirizzo Aziendale
+                        </h4>
+                    </li>
+                    <li>
+                        Via di qui 118
+                    </li>
+                    <li>
+                        <h4 class="colore3">
+                            Numero Aziendale
+                        </h4>
+                    </li>
+                    <li>
+                        +39 232323232
+                    </li>
+                    <li>
+                        <h4 class="colore3">
+                            E-mail Aziendale
+                        </h4>
+                    </li>
+                    <li>
+                        stefanoalfieri@live.it
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-sm-12 ">
+                <h2 class="colore1">La nostra posizione</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8584.428008970875!2d17.236837962903714!3d40.47407856577195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13470300498d89c1%3A0xcdda74fd42d19e3!2sTaranto%20Vecchia!5e0!3m2!1sit!2sit!4v1719484005523!5m2!1sit!2sit" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--footer-->
+    <footer class="py-5">
+        <div class="sep mb-3"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>
+                        Sezione
+                    </h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="Home.html" class="nav-link p-0 text-white"></a>Home</li>
+                        <li class="nav-item mb-2"><a href="Contatti.html" class="nav-link p-0 text-white"></a>Conatti</li>
+                        <li class="nav-item mb-2"><a href="ChiSiamo.html" class="nav-link p-0 text-white"></a>Chi Siamo</li>
+                        <li class="nav-item mb-2"><a href="Servizi.html" class="nav-link p-0 text-white"></a>Servizi</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>
+                        S.A.
+                    </h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">P.Iva:</li>
+                        <li class="nav-item mb-2">12332142343</li>
+                        <li class="nav-item mb-2">Sede Legale:</li>
+                        <li class="nav-item mb-2">Via Da qui 118</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>
+                        Contatti
+                    </h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="Home.html" class="nav-link p-0 text-white"></a>Telefono:</li>
+                        <li class="nav-item mb-2"><a href="Contatti.html" class="nav-link p-0 text-white"></a>323232323</li>
+                        <li class="nav-item mb-2"><a href="ChiSiamo.html" class="nav-link p-0 text-white"></a>E-Mail:</li>
+                        <li class="nav-item mb-2"><a href="Servizi.html" class="nav-link p-0 text-white"></a>stefanoalfieri@live.it</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Iscriviti alla nostra newsletter</h5>
+                        <p>Per rimanere aggionrato su promozioni e nuovi servizi.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <label for="newsletter" class="visually-hidden">Indirizzo E-Mail</label>
+                    <input type="text" id="newsletter" class="form-control " placeholder="Indirizzo E-Mail">
+                    <button class="btn btn-primary" id="btn-news" type="button">Iscriviti</button>
+                </div>
+            </form>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2024 Stefano Alfieri™, Tutti i diritti sono  riservati.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a href=""><i class="fa-brands fa-facebook colore1"></i></a></li>
+                    <li class="ms-3"><a href=""><i class="fa-brands fa-instagram colore1"></i></a></li>
+                    <li class="ms-3"><a href=""><i class="fa-brands fa-twitter colore1"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--fine footer-->
+    <!--imoprt js bootstrap-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
